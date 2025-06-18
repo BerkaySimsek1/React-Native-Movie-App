@@ -1,0 +1,9 @@
+export const LOGO_COLOR = "#c21858";
+export const TEXT_BUTTON_COLOR = "#c21858";
+export const BACKGROUND_COLOR = "#101130";
+export const TEXT_COLOR = "#FFFFFF";
+export const SECONDARY_COLOR = "#1E1E3F";
+export const ACCENT_COLOR = "#c21858";
+export const CARD_COLOR = "#1E1E3F";
+export const ERROR_COLOR = "#FF5252";
+export const SUCCESS_COLOR = "#4CAF50"; 

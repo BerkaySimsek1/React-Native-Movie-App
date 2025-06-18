@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Sinetopia",
+    "slug": "sinetopia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#101130"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.sinetopia"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#101130"
+      },
+      "package": "com.yourcompany.sinetopia",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Uygulama, profil fotoğrafınızı seçmenize izin vermek için fotoğraflarınıza erişmek istiyor."
+        }
+      ]
+    ],
+    "newArchEnabled": true,
+    "extra": {
+      "eas": {
+        "projectId": "41562a26-1e53-4891-8266-67a44268c127"
+      }
+    }
+  }
+}
