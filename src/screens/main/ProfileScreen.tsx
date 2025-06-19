@@ -575,7 +575,7 @@ const ProfileScreen = () => {
                 source={
                   profileImage
                     ? { uri: profileImage }
-                    : require("../../assets/default-profile.jpg")
+                    : require("../../../assets/default-profile.jpg")
                 }
                 style={styles.profileImage}
               />
